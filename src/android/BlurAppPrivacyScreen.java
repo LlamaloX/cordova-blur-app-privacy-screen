@@ -25,10 +25,10 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-public class BlurAppPrivacyScreen extends Activity{
+public class BlurAppPrivacyScreen extends CordovaActivity{
   @Override
-  public void onCreate(@Nullable Bundle savedInstanceState) {
-   getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
+  public void onCreate(Bundle savedInstanceState) {
+   getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
    super.onCreate(savedInstanceState);
   }
 }
