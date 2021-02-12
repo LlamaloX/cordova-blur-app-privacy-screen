@@ -5,12 +5,12 @@
   "cordova": {
     "id": "cordova-blur-app-privacy-screen",
     "platforms": [
-      "ios"
+      "ios","android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git"
+    "url": "git+https://github.com/LlamaloX/cordova-blur-app-privacy-screen.git"
   },
   "keywords": [
     "cordova",
