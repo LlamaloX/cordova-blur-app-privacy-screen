@@ -23,6 +23,7 @@ import org.json.JSONObject;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 
 public class BlurAppPrivacyScreen extends CordovaActivity {
 
