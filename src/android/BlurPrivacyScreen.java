@@ -27,12 +27,6 @@ import android.os.Bundle;
 public class BlurAppPrivacyScreen extends CordovaActivity {
 
   @Override
-  public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-    // Initialize plugin
-    super.initialize(cordova, webView);
-  
-  }
- 
   protected void onCreate(@Nullable Bundle savedInstanceState) {
    getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
    super.onCreate(savedInstanceState);
