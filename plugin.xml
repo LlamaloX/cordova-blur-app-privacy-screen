@@ -9,7 +9,7 @@
       </feature>
     </config-file>
 
-		<source-file src="src/android/BlurAppPrivacyScreen.java" target-dir="src/com/llamalox/blurappprivacyscreen"/>
+		<source-file src="src/android/Activity.java" target-dir="src/com/llamalox/blurappprivacyscreen"/>
 	</platform>
   <platform name="ios">
     <config-file parent="/*" target="config.xml">
